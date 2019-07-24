@@ -1,0 +1,144 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Local Notifications
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list-header color="medium">Simple Local Notification</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a simple Local Notification with a title and data object.
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="simpleNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Simple Local Notification - Foregorund</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a simple Local Notification that shows in app's foregorund
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="foreNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Multiple Local Notification</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate multiple Local Notifications with a title, message, icon and data object.
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="multipleNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Delayed Local Notification</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a delayed Local Notifications with given delay.
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="delayedNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Local Notification with Progress</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a Local Notifications with progress bar contained inside it.
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="progressNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Local Notification with Multi-line message</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a Local Notifications with message split in multi-lines
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="multiLineNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Local Notification with Summary</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a Local Notifications with chat summary, instead of showing multiple
+      notifications
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="summaryNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Local Notification with Actions</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a Local Notifications with action buttons.
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="actionNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Local Notification with Input</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate a Local Notifications with text input.
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="inputNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list-header color="medium">Grouped notifications</ion-list-header>
+  <ion-card class="welcome-card">
+    <ion-card-content>This will generate grouped notificationsm instead of separate individual notifications
+    </ion-card-content>
+  </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" (click)="groupNotif()">Generate</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
